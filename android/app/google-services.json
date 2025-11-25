@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025429331648",
+    "project_id": "project-uas-aca8d",
+    "storage_bucket": "project-uas-aca8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025429331648:android:1f7a540a48c240676d1725",
+        "android_client_info": {
+          "package_name": "com.example.smartcanteen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7mgCLpAmDFbQF6OUC4Pza0yXujG6Cj_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
