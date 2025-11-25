@@ -19,7 +19,8 @@ class Product_inandiar {
     return Product_inandiar(
       id_inandiar: doc.id,
       name_inandiar: data['name_inandiar'],
-      price_inandiar: data['price_inandiar'],
+      // Pastikan price selalu menjadi double (jika Firestore menyimpan int maka .toDouble() digunakan)
+      price_inandiar: (data['price_inandiar'] as num).toDouble(),
       stock_inandiar: data['stock_inandiar'],
     );
   }

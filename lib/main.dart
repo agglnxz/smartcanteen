@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'providers/cart_provider.dart';
-import 'screens/product_list_screen.dart';
+import 'providers/cart_provider_inandiar.dart';
+import 'screens/product_list_screen_inandiar.dart';
 
 // Ini main app, jangan lupa firebase ya
 void main() async {
