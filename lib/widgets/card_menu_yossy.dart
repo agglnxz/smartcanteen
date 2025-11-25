@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class CardMenuYossy extends StatelessWidget {
-  final String titleyossy;
-  final String priceyossy;
-  final String imageYossy;
+class CardMenu_yossy extends StatelessWidget {
+  final String title_yossy;
+  final String price_yossy;
+  final String image_yossy;
 
-  const CardMenuYossy({
+  const CardMenu_yossy({
     super.key,
-    required this.titleyossy,
-    required this.priceyossy,
-    required this.imageYossy,
+    required this.title_yossy,
+    required this.price_yossy,
+    required this.image_yossy,
   });
 
   @override
@@ -29,36 +29,36 @@ class CardMenuYossy extends StatelessWidget {
       ),
       child: Row(
         children: [
-          // BAGIAN GAMBAR — fix supaya tidak melebar
           ClipRRect(
             borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(12),
               bottomLeft: Radius.circular(12),
             ),
             child: Image.asset(
-              imageYossy,
+              image_yossy,
               width: 100,
               height: 100,
-              fit: BoxFit.cover, // tetap proporsional, tidak gepeng
+              fit: BoxFit.cover,
             ),
           ),
 
           const SizedBox(width: 12),
 
-          // BAGIAN TEXT
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                titleyossy,
+                title_yossy,
                 style: const TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
               ),
+
               const SizedBox(height: 4),
+
               Text(
-                "Rp $priceyossy",
+                "Rp $price_yossy",
                 style: const TextStyle(
                   fontSize: 16,
                   color: Colors.green,
@@ -70,4 +70,4 @@ class CardMenuYossy extends StatelessWidget {
       ),
     );
   }
-} 
+}

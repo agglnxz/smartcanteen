@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RegisterScreenYossy extends StatelessWidget {
-  const RegisterScreenYossy({super.key});
+class RegisterScreen_yossy extends StatelessWidget {
+  const RegisterScreen_yossy({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +18,7 @@ class RegisterScreenYossy extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
+
             const SizedBox(height: 12),
 
             TextField(
@@ -26,6 +27,7 @@ class RegisterScreenYossy extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
+
             const SizedBox(height: 12),
 
             TextField(
@@ -34,6 +36,7 @@ class RegisterScreenYossy extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
+
             const SizedBox(height: 20),
 
             ElevatedButton(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../widgets/card_menu_yossy.dart';
 
-class HomeScreenYossy extends StatelessWidget {
-  const HomeScreenYossy({super.key});
+class HomeScreen_yossy extends StatelessWidget {
+  const HomeScreen_yossy({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,16 +22,18 @@ class HomeScreenYossy extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: const [
-          CardMenuYossy(
-            titleyossy: "Nasi Goreng",
-            priceyossy: "15000",
-            imageYossy: "assets/images/nasigoreng.jpg",
+          CardMenu_yossy(
+            title_yossy: "Nasi Goreng",
+            price_yossy: "15000",
+            image_yossy: "assets/images/nasigoreng.jpg",
           ),
+
           SizedBox(height: 12),
-          CardMenuYossy(
-            titleyossy: "Ayam Geprek",
-            priceyossy: "18000",
-            imageYossy: "assets/images/ayamgeprek.jpg",
+
+          CardMenu_yossy(
+            title_yossy: "Ayam Geprek",
+            price_yossy: "18000",
+            image_yossy: "assets/images/ayamgeprek.jpg",
           ),
         ],
       ),

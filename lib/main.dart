@@ -5,11 +5,11 @@ import 'screens/home_screen_yossy.dart';
 import 'screens/cart_screen_yossy.dart';
 
 void main() {
-  runApp(const SmartCanteenAppyossy());
+  runApp(const SmartCanteenApp_yossy());
 }
 
-class SmartCanteenAppyossy extends StatelessWidget {
-  const SmartCanteenAppyossy({super.key});
+class SmartCanteenApp_yossy extends StatelessWidget {
+  const SmartCanteenApp_yossy({super.key});
 
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';              // gunakan config dari anggota 1
@@ -33,15 +33,15 @@ class MyAppFirman extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
-        fontFamily: 'Poppins',   // 🟩 WAJIB untuk ubah font global
+        fontFamily: 'Poppins',
       ),
 
       initialRoute: '/login',
       routes: {
-        '/login': (_) => const LoginScreenYossy(),
-        '/register': (_) => const RegisterScreenYossy(),
-        '/home': (_) => const HomeScreenYossy(),
-        '/cart': (_) => const CartScreenYossy(),
+        '/login': (_) => const LoginScreen_yossy(),
+        '/register': (_) => const RegisterScreen_yossy(),
+        '/home': (_) => const HomeScreen_yossy(),
+        '/cart': (_) => const CartScreen_yossy(),
       },
       home: LoginScreenFirman(),   // halaman pertama milik kamu
 import 'package:provider/provider.dart';

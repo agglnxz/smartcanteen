@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CartScreenYossy extends StatelessWidget {
-  const CartScreenYossy({super.key});
+class CartScreen_yossy extends StatelessWidget {
+  const CartScreen_yossy({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,10 +11,10 @@ class CartScreenYossy extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Icon(Icons.shopping_cart, size: 80),
-            const SizedBox(height: 20),
-            const Text("Keranjang masih kosong"),
+          children: const [
+            Icon(Icons.shopping_cart, size: 80),
+            SizedBox(height: 20),
+            Text("Keranjang masih kosong"),
           ],
         ),
       ),

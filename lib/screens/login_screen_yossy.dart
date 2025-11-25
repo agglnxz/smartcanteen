@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class LoginScreenYossy extends StatelessWidget {
-  const LoginScreenYossy({super.key});
+class LoginScreen_yossy extends StatelessWidget {
+  const LoginScreen_yossy({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,6 +12,7 @@ class LoginScreenYossy extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset("assets/images/logo.jpg", height: 120),
+
             const SizedBox(height: 20),
 
             TextField(
